@@ -1,0 +1,25 @@
+.container {
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.contaiBox {
+    height: 250px;
+    display: flex;
+    border: 1px solid red;
+}
+
+.image {
+    height: 240px;
+}
+
+.image > img {
+    height: 100%;
+}
+
+.description {
+    display: inline-block;
+    padding-left: 10px;
+}
